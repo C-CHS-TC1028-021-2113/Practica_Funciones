@@ -1,23 +1,23 @@
 
 def precio_antes_descuento(tipo_silla, cantidad) :
     if tipo_silla == "B" :
-        precio = 700.0 * cantidad
+       # precio = 
     elif tipo_silla == "E" :
-        precio = 900.0 * cantidad
+       # precio = 
     else :
-        precio = 1500.0 * cantidad
+       # precio = 
     return precio
 
 def calcula_descuento(precio, tipo_cl) :
     if tipo_cl == "F" :
-        desc = precio * 0.2
+      #  desc = 
     else :
         if precio >= 10000 and precio < 20000 :
-            desc = precio * 0.1
+        #    desc = 
         elif precio >= 20000 :
-            desc = precio * 0.15
+        #    desc =
         else :
-            desc = 0.0
+       #     desc = 
     return desc
 
 def main() :
