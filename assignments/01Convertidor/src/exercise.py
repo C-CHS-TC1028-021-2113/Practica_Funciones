@@ -1,13 +1,13 @@
 # Escribe tus funciones abajo de esta línea
 def pies_cm(pies):
-    return pies * 30.48
+   # return 
 
 def pulgadas_cm(pulgadas):
-    return pulgadas * 2.54
+  #  return 
 
 def yardas_cm(yardas):
-    return yardas * 91.44
-
+    
+     
 def main():
     # Escribe tu código abajo de esta línea
     print("1. pies a cm, 2. pulgadas a cm, 3. yardas a cm") 
